@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectRepository>
+	<CropHme>
+		<appInitialTitle>//*[@text='New Crop']</appInitialTitle>
+		<appTtle>//*[contains(@content-desc,'title_navbar_activity_history')]</appTtle> 
+		<newSampleBtn>//android.widget.TextView[[@content-desc='container_button_new_Sample']</sampleBtn>
+		<newsamplePgeTitle>//android.widget.TextView[@content-desc='title_newSampleNavbar']</newsamplePgeTitle>
+		<adNxtCropdBtn>//android.widget.TextView[@content-desc='btnText_button_add_new_crop']</adNxtCropdBtn>
+	</CropHme>
+	<AddCrop>
+		<cropTitle>//android.widget.TextView[@content-desc='title_nbNavBar']</cropTitle>
+		<farmNme>//android.widget.TextView[contains(@text,'Name of your farm')]</farmNme>
+		<riceVariety>//*[contains(@content-desc,'roundedButtonText_rblRiceVarieties')]</riceVariety> 
+		<period>//android.widget.TextView</period>
+		<frmSize>//android.widget.TextView[contains(@content-desc,'roundedButtonText_rblFarmSizes')]</frmSize> 
+		<saveBtn>//android.widget.TextView[contains(@text,'Save')]</saveBtn>
+		<instn>//*[@text='How to use Leaf Color Chart']</instn>
+	</AddCrop>
+</ObjectRepository>
+
